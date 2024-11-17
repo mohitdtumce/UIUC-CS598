@@ -1,0 +1,23 @@
+Running MetricsUploader: 1
+instanceName,availabilityZone,state,cpuUtilization,ramUsed,ramSize,networkIn,networkOut,averageIOLatency,diskReadBytes,diskWriteBytes
+mohitshr-spot1,us-central1-f,RUNNING,0.009098286713083326,1.155428352E9,4.115369984E9,0.0,0.0,873.7265027182292,0.0,0.0
+Existing file truncated: gs://mohitshr-project-gslb-us-central1/InstanceHealth.csv
+File uploaded to GCS: gs://mohitshr-project-gslb-us-central1/InstanceHealth.csv
+GCP Metrics uploaded successfully at: 1731745281540
+instanceId,availabilityZone,state,cpuUtilization,networkIn,networkOut,diskReadBytes,diskWriteBytes
+i-0294433bba901484f,us-east-1d,running,3.0833333333333335,0.0,0.0,0.0,0.0
+File uploaded to S3: s3://mohitshr-project-gslb-us-central1/InstanceHealth.csv
+EC2 Metrics uploaded successfully at: 1731745282614
+ExecutionComplete
+
+Running MetricsUploader: 2
+instanceName,availabilityZone,state,cpuUtilization,ramUsed,ramSize,networkIn,networkOut,averageIOLatency,diskReadBytes,diskWriteBytes
+mohitshr-spot1,us-central1-f,RUNNING,0.009098286713083326,1.155428352E9,4.115369984E9,0.0,0.0,878.4894387427772,0.0,0.0
+Existing file truncated: gs://mohitshr-project-gslb-us-central1/InstanceHealth.csv
+File uploaded to GCS: gs://mohitshr-project-gslb-us-central1/InstanceHealth.csv
+GCP Metrics uploaded successfully at: 1731745290236
+instanceId,availabilityZone,state,cpuUtilization,networkIn,networkOut,diskReadBytes,diskWriteBytes
+i-0294433bba901484f,us-east-1d,running,3.0833333333333335,0.0,0.0,0.0,0.0
+File uploaded to S3: s3://mohitshr-project-gslb-us-central1/InstanceHealth.csv
+EC2 Metrics uploaded successfully at: 1731745290726
+ExecutionComplete

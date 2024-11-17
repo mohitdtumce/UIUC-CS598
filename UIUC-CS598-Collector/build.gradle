@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation platform('com.google.cloud:libraries-bom:26.50.0')
+    implementation 'com.google.cloud:google-cloud-monitoring'
+    implementation 'com.google.cloud:google-cloud-storage'
+    implementation 'com.google.cloud:google-cloud-compute'
+    implementation 'com.google.cloud:google-cloud-dataproc'
+    implementation 'com.google.protobuf:protobuf-java'
+    implementation 'com.google.cloud:google-cloud-container'
+    implementation 'com.google.api:gax'
+    implementation 'com.google.auth:google-auth-library-oauth2-http'
+
+    implementation platform('software.amazon.awssdk:bom:2.29.6')
+    implementation 'software.amazon.awssdk:s3'
+    implementation 'software.amazon.awssdk:ec2'
+    implementation 'software.amazon.awssdk:cloudwatch'
+    implementation 'software.amazon.awssdk:auth'
+    implementation 'software.amazon.awssdk:route53'
+
+    implementation 'io.kubernetes:client-java:21.0.1'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
